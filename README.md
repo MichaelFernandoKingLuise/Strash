@@ -5,29 +5,34 @@ Strash adalah aplikasi web progresif (PWA) yang menggunakan teknologi machine le
 ## 🚀 Fitur Utama
 
 ### 📸 Klasifikasi Sampah
+
 - Upload gambar atau gunakan kamera real-time
-- Klasifikasi sampah menggunakan TensorFlow.js dan MobileNet
+- Klasifikasi sampah menggunakan TensorFlow.js dan VGG16
 - Hasil klasifikasi dengan persentase akurat
 - Rekomendasi penanganan sampah berdasarkan jenis
 - Integrasi machine learning model yang dioptimalkan
 
 ### 📊 Riwayat
+
 - Menyimpan hasil klasifikasi di Firebase
 - Filter berdasarkan jenis sampah
 - Detail hasil klasifikasi dengan visualisasi
 - Statistik pengguna
 
 ### 🏆 Leaderboard & Gamifikasi
+
 - Peringkat pengguna berdasarkan jumlah klasifikasi
 - Sistem poin
 - Update real-time menggunakan Firebase
 
 ### 📚 Edukasi & Informasi
+
 - Artikel edukasi tentang jenis sampah
 - Tips pengelolaan sampah
 - Desain card modern dengan animasi
 
 ### 🔐 Autentikasi & Keamanan
+
 - Login dan registrasi dengan Firebase Auth
 - Proteksi endpoint dengan JWT
 - Manajemen sesi pengguna
@@ -36,8 +41,9 @@ Strash adalah aplikasi web progresif (PWA) yang menggunakan teknologi machine le
 ## 🛠️ Teknologi yang Digunakan
 
 ### Frontend
+
 - React.js dengan Hooks dan Context API
-- TensorFlow.js & MobileNet untuk ML
+- TensorFlow.js & VGG16 untuk ML
 - Tailwind CSS untuk styling
 - PWA dengan Service Worker
 - SweetAlert2 untuk UI/UX
@@ -45,6 +51,7 @@ Strash adalah aplikasi web progresif (PWA) yang menggunakan teknologi machine le
 - Axios untuk HTTP requests
 
 ### Backend
+
 - Hapi.js framework
 - Firebase Firestore
 - Firebase Admin SDK
@@ -53,8 +60,9 @@ Strash adalah aplikasi web progresif (PWA) yang menggunakan teknologi machine le
 - Compression untuk optimasi
 
 ### Machine Learning
+
 - TensorFlow.js
-- MobileNet model
+- VGG16 model
 - Custom model training
 - Model optimization
 - Real-time inference
@@ -62,12 +70,14 @@ Strash adalah aplikasi web progresif (PWA) yang menggunakan teknologi machine le
 ## 📦 Instalasi
 
 ### Prasyarat
+
 - Node.js (v14 atau lebih baru)
 - npm atau yarn
 - Firebase account
 - Railway account
 
 ### Frontend
+
 ```bash
 cd frontend
 npm install
@@ -77,6 +87,7 @@ npm run serve
 ## 🔧 Konfigurasi
 
 ### Frontend (.env)
+
 ```env
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
